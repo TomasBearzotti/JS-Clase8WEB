@@ -3,8 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ejercicios JS - Clase 8 - WEB</title>
   </head>
   <body>
+    <h1>Ejercicios JS - Clase 8 - WEB</h1>
+
+    <p>
+      <strong>Ejercicio 1: Variables y Operadores</strong><br />
+      a. Resultado Suma: <span id="resultado-suma"></span><br />
+      b. Texto Concatenado: <span id="resultado-concatenacion"></span><br />
+      c. Largo Total Strings: <span id="resultado-largo"></span>
+    </p>
+
+    <p>
+      <strong>Ejercicio 2: Strings</strong><br />
+      a. Todo en Mayúsculas: <span id="string-a"></span><br />
+      b. Primeros 5 caracteres: <span id="string-b"></span><br />
+      c. Últimos 3 caracteres: <span id="string-c"></span><br />
+      d. Primer letra Mayúscula: <span id="string-d"></span><br />
+      e. Posición del primer espacio: <span id="string-e"></span><br />
+      f. Formateo de dos palabras largas: <span id="string-f"></span>
+    </p>
+
+    <p>
+      <strong>Ejercicio 3: Arrays</strong><br />
+      a. Meses 5 y 11: <span id="array-a"></span><br />
+      b. Ordenado Alfabéticamente: <span id="array-b"></span><br />
+      c. Agregar al inicio y fin: <span id="array-c"></span><br />
+      d. Quitar del inicio y fin: <span id="array-d"></span><br />
+      e. Array Invertido: <span id="array-e"></span><br />
+      f. Elementos unidos por guion: <span id="array-f"></span><br />
+      g. Copia de Mayo a Noviembre: <span id="array-g"></span>
+    </p>
+
+    <p>
+      <strong>Ejercicio 4: If Else</strong><br />
+      a. Número Aleatorio: <span id="if-else-a"></span><br />
+      <button onclick="ejecutarPuntoA()">Probar Numero Nuevo</button>
+      <br /><br />
+      b. Edad seleccionada: <span id="if-else-b">.</span><br />
+      <button onclick="ejecutarPuntoB()">Probar Edad Nueva</button>
+    </p>
+
+    <p>
+      <strong>Ejercicio 5: For</strong><br />
+      a. Palabras del array recorrido: <span id="for-a"></span><br />
+      b. Palabras con mayúscula: <span id="for-b"></span><br />
+      c. Frase unificada (Sentence): <span id="for-c"></span><br />
+      d. Array numérico generado (0 al 9): <span id="for-d"></span>
+    </p>
+
+<p>
+      <strong>Ejercicio 6: Funciones (Calculadora Interactiva)</strong><br /><br />
+      
+      <label for="input-a">Valor A:</label>
+      <input type="text" id="input-a" value="10.6" style="width: 60px;" />
+      
+      <label for="input-b">Valor B:</label>
+      <input type="text" id="input-b" value="20.3" style="width: 60px;" />
+      
+      <button onclick="calcularSumaManual()">Ejecutar Suma</button>
+      <br /><br />
+
+      a. Suma básica (10 + 20): <span id="func-a"></span><br />
+      b. Validación tipo (10 + "hola"): <span id="func-b"></span><br />
+      c. Validación entero (¿El Valor A es entero?): <span id="func-c"></span><br />
+      d/e. Resultado de tu prueba manual: <strong id="func-de" style="color: #0076ff;"></strong>
+    </p>
+
+    <script src="./exercises/variables_and_operators.js"></script>
+    <script src="./exercises/strings.js"></script>
+    <script src="./exercises/arrays.js"></script>
+    <script src="./exercises/if_else.js"></script>
+    <script src="./exercises/for.js"></script>
+    <script src="./exercises/functions.js"></script>
   </body>
 </html>
